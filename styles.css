@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+body{
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:100vh;
+}
+.search {
+  display: flex;
+  align-items: center;
+	justify-content:center;
+  background-color:#785CF2;
+  height:100vh;
+	width:100vw;
+}
+
+.search.active {
+  background-color: #e0e0e0;
+}
+
+.input {
+  padding: 8px;
+  border: none;
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+	color:#222;
+	background-color:#777;
+}
+.btn:focus {
+  outline: none;
+}
+
+.input:focus {
+  border-color: #007bff;
+}
